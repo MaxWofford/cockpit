@@ -61,6 +61,8 @@ GEM
     multi_json (1.11.2)
     multipart-post (2.0.0)
     naught (1.0.0)
+    octokit (3.8.0)
+      sawyer (~> 0.6.0, >= 0.5.3)
     rack (1.5.5)
     rack-protection (1.5.3)
       rack
@@ -70,6 +72,9 @@ GEM
     rufus-scheduler (2.0.24)
       tzinfo (>= 0.3.22)
     sass (3.2.19)
+    sawyer (0.6.0)
+      addressable (~> 2.3.5)
+      faraday (~> 0.8, < 0.10)
     signet (0.6.1)
       addressable (~> 2.3)
       extlib (~> 0.9)
@@ -120,4 +125,5 @@ PLATFORMS
 DEPENDENCIES
   dashing
   google-api-client
+  octokit (~> 3.0)
   twitter
